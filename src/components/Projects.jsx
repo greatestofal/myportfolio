@@ -189,6 +189,8 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
+          {/* End of Projects */}
         </div>
         {/* Container ends here */}
       </div>
