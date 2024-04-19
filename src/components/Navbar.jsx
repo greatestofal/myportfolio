@@ -47,10 +47,10 @@ const Navbar = () => {
         <li className="py-6 text-4xl"> Contact </li>
       </ul>
       {/* Social Icons */}
-      <div className="flex fixed flex-col top-[35%] left-0">
+      <div className=" hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           {/* LinkedIn */}
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700 bg-blue-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-400 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/nnamdiadibe/"
@@ -60,7 +60,7 @@ const Navbar = () => {
             </a>
           </li>
           {/* GitHub */}
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700 bg-[#333333]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-400 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/greatestofal"
@@ -70,7 +70,7 @@ const Navbar = () => {
             </a>
           </li>
           {/* Email */}
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700 bg-[#6fc2b0]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-400 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:s.n.adibe@gmail.com"
@@ -80,7 +80,7 @@ const Navbar = () => {
             </a>
           </li>
           {/* Resume */}
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700 bg-[#565f69]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-400 bg-[#565f69]">
             <a
               href="/"
               className="flex justify-between items-center w-full text-gray-300"
@@ -90,7 +90,7 @@ const Navbar = () => {
             </a>
           </li>
           {/* Twitter */}
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700 bg-[#1DA1F2]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-400 bg-[#1DA1F2]">
             <a
               href="https://twitter.com/greatestofal"
               className="flex justify-between items-center w-full text-white"
