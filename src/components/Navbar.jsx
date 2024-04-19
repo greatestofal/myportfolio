@@ -6,7 +6,6 @@ import {
   FaGithub,
   FaLinkedin,
   FaTwitter,
-  FaFacebook,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -98,16 +97,6 @@ const Navbar = () => {
               target="_blank"
             >
               Twitter <FaTwitter size={30} />
-            </a>
-          </li>
-          {/* Facebook */}
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700 bg-[#1DA1F2]">
-            <a
-              href="https://twitter.com/greatestofal"
-              className="flex justify-between items-center w-full text-white"
-              target="_blank"
-            >
-              Twitter <FaFacebook size={30} />
             </a>
           </li>
         </ul>
