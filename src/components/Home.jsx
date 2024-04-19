@@ -7,20 +7,23 @@ const Home = () => {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-[#64ffda]">Hi, my name is</p>
-        <h1 className="text-3xl sm:text-5xl font-bold text-[#ccd6f6]">
+        <h1 className="text-3xl sm:text-6xl font-bold text-[#ccd6f6]">
           Nnamdi Solomon Adibe
         </h1>
         <h2 className="text-2xl sm:text-4xl font-bold text-[#8892b0]">
           I'm a Full Stack Developer
         </h2>
-        <p>
+        <p className="text-[#8892b0] py-4 max-w-[700px]">
           Full Stack Developer passionate about crafting seamless digital
           experiences. Expertise in HTML, CSS, JavaScript, React.js, Node.js,
           and more. Committed to innovation, continuous learning, and delivering
           exceptional results. Let's build something amazing together!
         </p>
-        <button>
-          View Work <HiArrowNarrowRight />
+        <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#64ffda] hover:border-[#64ffda] hover:text-black  hover:font-bold">
+          View Projects
+          <span className="group-hover:rotate-90 duration-300">
+            <HiArrowNarrowRight className="ml-3" />
+          </span>
         </button>
       </div>
     </div>
