@@ -22,12 +22,13 @@ export default function BasicForm() {
       .then((response) => response.json())
       .then((response) => {
         if (response.code === 200) {
-          alert(
-            "Thanks for getting in touch. I will reach out to you soon. Thank you!"
+          setError(
+            "Thanks for getting in touch. I will reach out to you soon."
           );
+          e.target.reset();
         } else if (response.code === 422) {
           // Field validation failed
-          setError(response.message);
+          setError("Please check the form, edit the fields and try again.");
         } else {
           // other error from formcarry
           setError(response.message);
@@ -87,7 +88,7 @@ export default function BasicForm() {
           cols={"50"}
           onChange={(e) => setMessage(e.target.value)}
           id="message"
-          placeholder="Enter your message..."
+          placeholder="Please enter your message..."
           className="bg-[#ccd6f6] p-2"
         ></textarea>
       </div>
@@ -100,6 +101,8 @@ export default function BasicForm() {
           Send
         </button>
       </div>
+
+      {error && <p className="text-[#64ffda] font-medium">{error}</p>}
     </form>
   );
 }
