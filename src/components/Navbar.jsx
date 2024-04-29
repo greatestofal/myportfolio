@@ -119,7 +119,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-400 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="mailto:s.n.adibe@gmail.com"
+              href="mailto:adibennamdisolomon@gmail.com"
               target="_blank"
             >
               Email <HiOutlineMail size={30} />
@@ -128,7 +128,7 @@ const Navbar = () => {
           {/* Resume */}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-400 bg-[#565f69]">
             <a
-              href="/"
+              href="../Nnamdi Solomon Adibe cv.pdf"
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
             >
