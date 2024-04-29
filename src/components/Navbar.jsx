@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo.png";
+import CV from "../cv.pdf";
 import { Link } from "react-scroll";
 import {
   FaBars,
@@ -128,7 +129,8 @@ const Navbar = () => {
           {/* Resume */}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-400 bg-[#565f69]">
             <a
-              href="../Nnamdi Solomon Adibe cv.pdf"
+              href={CV}
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
             >
